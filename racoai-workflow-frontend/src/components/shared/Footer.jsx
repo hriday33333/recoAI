@@ -8,7 +8,7 @@ const Footer = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="bg-purple-600 text-white py-10"
+      className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 text-white py-10"
     >
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 
