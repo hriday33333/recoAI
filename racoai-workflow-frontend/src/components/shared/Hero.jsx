@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
+    
    <section className="relative min-h-screen flex items-center justify-center bg-[#0a0a0c] overflow-hidden px-6">
       {/* Background Glows */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full">
@@ -18,7 +19,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-blue-400 text-sm font-medium mb-8"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-blue-400 text-sm mt-5 md:mt-0 font-medium mb-8"
           >
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>

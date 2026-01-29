@@ -10,7 +10,7 @@ const Footer = () => {
       viewport={{ once: true }}
       className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 text-white py-10"
     >
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-[1300px] mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {/* Brand */}
         <div>
